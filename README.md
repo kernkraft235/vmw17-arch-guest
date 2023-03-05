@@ -1,9 +1,12 @@
 # vmw17-arch-guest
 Tips and Tweaks for creating a high performance Arch linux VM using VMware Workstation 17 on Windows 11
 
-GLMark2 score: 4342 (Host is using an RTX 3080)
-Geekbench5 score: 1875/100016 (8 p-cores of a modestly clocked 12700K, within 5% of host score)
-Desktop visual performance equivalent to virgl w/ libvirt
+GLMark2 score: 4342 (Host is using an RTX 3080) 
+ 
+Geekbench5 score: 1875/100016 (8 p-cores of a modestly clocked 12700K, within 5% of host score) 
+ 
+Desktop visual performance equivalent to virgl w/ libvirt 
+ 
 
 Initial Conditions:
 - Affinity set to only P-cores in taskmanager

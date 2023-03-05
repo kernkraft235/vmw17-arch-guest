@@ -64,8 +64,9 @@ Other VMX paremeters that may do nothing:
   - svga.debug.showFPS = "TRUE"
 
 ![image](https://user-images.githubusercontent.com/8879385/222939206-ef699cc5-0045-4d04-9757-0b6f3adc1bcc.png)
+![image](https://user-images.githubusercontent.com/8879385/222939247-bbf5f23e-eb05-4466-b027-ab408c0e4f52.png)
 ![image](https://user-images.githubusercontent.com/8879385/222939228-e4e75d49-26c9-47c7-9981-414cc464c502.png)
 ![image](https://user-images.githubusercontent.com/8879385/222939237-67053530-f72e-47d8-9dbd-658cc2384207.png)
-![image](https://user-images.githubusercontent.com/8879385/222939247-bbf5f23e-eb05-4466-b027-ab408c0e4f52.png)
+
 
 

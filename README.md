@@ -20,8 +20,8 @@ Initial Conditions:
 - "Other 5.X 64 Linux" selected as OS
 - VMW-Workstation config.ini edited to use memory directly
   
-  Some highlited VMX file parameters:
-  - vcpu.hotadd = "FALSE"
+	 Some highlited VMX file parameters:
+  	- vcpu.hotadd = "FALSE"
 	- mem.hotadd = "FALSE" 
 		○ arch-wiki mentions problems with mem.hotadd
 	- cpuid.numSMT = "2"
@@ -33,14 +33,14 @@ Initial Conditions:
 	  keyboard.softAutorepeat = "FALSE"
 	  keyboard.typematicMinDelay = "5"
 		○ Possible keyboard lag fix
-  - vmxnet.alwaysEnhanced = TRUE" 
+ 	- vmxnet.alwaysEnhanced = TRUE" 
 	- ethernet0.virtualDev = "vmxnet3"
 		○ Defaults to e1000 when choosing "Other Linux"
 	- numa.autosize.vcpu.maxPerVirtualNode = "16"
 		○ Kept defaulting to lower number, unsure if it matters but I set to # of vcpus
 	- DELETED after done with iso:
-	    scsi0.virtualDev = "pvscsi"
-      scsi0.present = "TRUE"
+	    - scsi0.virtualDev = "pvscsi"
+	    - scsi0.present = "TRUE"
       
 Other VMX paremeters that may do nothing:
   - sched.cpu.affinity = "0-15"

@@ -23,7 +23,7 @@ Initial Conditions:
 - "Other 5.X 64 Linux" selected as OS
 - VMW-Workstation config.ini edited to use memory directly
   
-	 Some highlited VMX file parameters:
+- Some highlited VMX file parameters:
   	- vcpu.hotadd = "FALSE"
 	- mem.hotadd = "FALSE" 
 		○ arch-wiki mentions problems with mem.hotadd

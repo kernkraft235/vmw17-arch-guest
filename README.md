@@ -7,6 +7,8 @@ GLMark2 score: 4342 (Host is using an RTX 3080)
  
 Geekbench5 score: 1875/10016 (8 p-cores of a modestly clocked 12700K, within 5% of host score) 
  
+In-guest disk speed: 3500MBPS read 2500MBPS write (on crucial P5+)
+ 
 Desktop visual performance equivalent to virgl w/ libvirt 
  
 

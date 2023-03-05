@@ -41,8 +41,6 @@ Initial Conditions:
  	- vmxnet.alwaysEnhanced = TRUE" 
 	- ethernet0.virtualDev = "vmxnet3"
 		- Defaults to e1000 when choosing "Other Linux"
-	- numa.autosize.vcpu.maxPerVirtualNode = "16"
-		- Kept defaulting to lower number, unsure if it matters but I set to # of vcpus
 	- DELETED after done with iso:
 	    - scsi0.virtualDev = "pvscsi"
 	    - scsi0.present = "TRUE"

@@ -13,10 +13,10 @@ Initial Conditions:
 - Hyper-V and associated features turned off
 - PVSCSI (nvme) pre-allocated disk for arch root
 - PVSCSI (nvme) independent-persistent disk for /var/cache/pacman/pkg
-		○ Common pkg cache between all the future snapshot forks of VM
-		○ I set it to uses nvme1:0 rather than nvme0:1 so it shows as seperate nvme dev instead of another namespace
+		- Common pkg cache between all the future snapshot forks of VM
+		- I set it to uses nvme1:0 rather than nvme0:1 so it shows as seperate nvme dev instead of another namespace
 - Archiso CD-ROM changed from IDE to SCSI
-    ○ IDE was extremely slow (>10 minutes to login shell)
+    - IDE was extremely slow (>10 minutes to login shell)
 - Options>Advanced: Disable page trimming, select UEFI
 - 3d acceleration enabled
 - All CPU options selected > nested virtualization enabled (untested)
@@ -26,21 +26,21 @@ Initial Conditions:
 - Some highlited VMX file parameters:
   	- vcpu.hotadd = "FALSE"
 	- mem.hotadd = "FALSE" 
-		○ arch-wiki mentions problems with mem.hotadd
+		- arch-wiki mentions problems with mem.hotadd
 	- cpuid.numSMT = "2"
-		○ Enable hyperthreading awareness - set # vcpus equal to # threads
+		- Enable hyperthreading awareness - set # vcpus equal to # threads
 	- priority.grabbed = "high"
-		○ personal preference
+		- personal preference
 	- mks.forceDiscreteGPU = "TRUE"
 	- mks.keyboardFilter = "require"
 	  keyboard.softAutorepeat = "FALSE"
 	  keyboard.typematicMinDelay = "5"
-		○ Possible keyboard lag fix
+		- Possible keyboard lag fix
  	- vmxnet.alwaysEnhanced = TRUE" 
 	- ethernet0.virtualDev = "vmxnet3"
-		○ Defaults to e1000 when choosing "Other Linux"
+		- Defaults to e1000 when choosing "Other Linux"
 	- numa.autosize.vcpu.maxPerVirtualNode = "16"
-		○ Kept defaulting to lower number, unsure if it matters but I set to # of vcpus
+		- Kept defaulting to lower number, unsure if it matters but I set to # of vcpus
 	- DELETED after done with iso:
 	    - scsi0.virtualDev = "pvscsi"
 	    - scsi0.present = "TRUE"

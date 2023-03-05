@@ -6,19 +6,19 @@ Geekbench5 score: 1875/100016 (8 p-cores of a modestly clocked 12700K, within 5%
 Desktop visual performance equivalent to virgl w/ libvirt
 
 Initial Conditions:
-	- Affinity set to only P-cores in taskmanager
-	- Hyper-V and associated features turned off
-	- PVSCSI (nvme) pre-allocated disk for arch root
-	- PVSCSI (nvme) independent-persistent disk for /var/cache/pacman/pkg
+- Affinity set to only P-cores in taskmanager
+- Hyper-V and associated features turned off
+- PVSCSI (nvme) pre-allocated disk for arch root
+- PVSCSI (nvme) independent-persistent disk for /var/cache/pacman/pkg
 		○ Common pkg cache between all the future snapshot forks of VM
 		○ I set it to uses nvme1:0 rather than nvme0:1 so it shows as seperate nvme dev instead of another namespace
-	- Archiso CD-ROM changed from IDE to SCSI
+- Archiso CD-ROM changed from IDE to SCSI
     ○ IDE was extremely slow (>10 minutes to login shell)
-  - Options>Advanced: Disable page trimming, select UEFI
-  - 3d acceleration enabled
-  - All CPU options selected > nested virtualization enabled (untested)
-  - "Other 5.X 64 Linux" selected as OS
-  - VMW-Workstation config.ini edited to use memory directly
+- Options>Advanced: Disable page trimming, select UEFI
+- 3d acceleration enabled
+- All CPU options selected > nested virtualization enabled (untested)
+- "Other 5.X 64 Linux" selected as OS
+- VMW-Workstation config.ini edited to use memory directly
   
   Some highlited VMX file parameters:
   - vcpu.hotadd = "FALSE"

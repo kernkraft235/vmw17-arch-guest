@@ -1,5 +1,7 @@
 # vmw17-arch-guest
-Tips and Tweaks for creating a high performance Arch linux VM using VMware Workstation 17 on Windows 11
+Tips and Tweaks for creating a high performance Arch linux VM using VMware Workstation 17 on Windows 11 
+ - config.ini file located in "C:\ProgramData\VMware\VMware Workstation" by default
+ - VMX file is in VM folder. You can right click the VM in the sidebar to "Open VM Directory"
 
 GLMark2 score: 4342 (Host is using an RTX 3080) 
  

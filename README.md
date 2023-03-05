@@ -5,7 +5,7 @@ Tips and Tweaks for creating a high performance Arch linux VM using VMware Works
 
 GLMark2 score: 4342 (Host is using an RTX 3080) 
  
-Geekbench5 score: 1875/100016 (8 p-cores of a modestly clocked 12700K, within 5% of host score) 
+Geekbench5 score: 1875/10016 (8 p-cores of a modestly clocked 12700K, within 5% of host score) 
  
 Desktop visual performance equivalent to virgl w/ libvirt 
  

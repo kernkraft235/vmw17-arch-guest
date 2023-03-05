@@ -34,10 +34,11 @@ Initial Conditions:
 	- priority.grabbed = "high"
 		- personal preference
 	- mks.forceDiscreteGPU = "TRUE"
-	- mks.keyboardFilter = "require"
-	  keyboard.softAutorepeat = "FALSE"
-	  keyboard.typematicMinDelay = "5"
-		- Possible keyboard lag fix
+	- Possible keyboard lag fix
+		- mks.keyboardFilter = "require"
+	  	- keyboard.softAutorepeat = "FALSE"
+	  	- keyboard.typematicMinDelay = "5"
+		- 
  	- vmxnet.alwaysEnhanced = TRUE" 
 	- ethernet0.virtualDev = "vmxnet3"
 		- Defaults to e1000 when choosing "Other Linux"

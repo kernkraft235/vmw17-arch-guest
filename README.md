@@ -62,3 +62,6 @@ Other VMX paremeters that may do nothing:
   - svga.maxNoChangeTick = "120"
   - svga.showUpdateRate = "TRUE"
   - svga.debug.showFPS = "TRUE"
+
+![image](https://user-images.githubusercontent.com/8879385/222939206-ef699cc5-0045-4d04-9757-0b6f3adc1bcc.png)
+

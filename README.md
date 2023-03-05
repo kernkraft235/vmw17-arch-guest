@@ -2,7 +2,8 @@
 Tips and Tweaks for creating a high performance Arch linux VM using VMware Workstation 17 on Windows 11
 
 GLMark2 score: 4342 (Host is using an RTX 3080)
-Geekbench5 score: 1875/100016 (8 p-cores of a modestly clocked 12700K)
+Geekbench5 score: 1875/100016 (8 p-cores of a modestly clocked 12700K, within 5% of host score)
+Desktop visual performance equivalent to virgl w/ libvirt
 
 Initial Conditions:
 	- Affinity set to only P-cores in taskmanager
@@ -42,16 +43,16 @@ Initial Conditions:
       scsi0.present = "TRUE"
       
 Other VMX paremeters that may do nothing:
-  sched.cpu.affinity = "0-15"
-  mks.forceDiscreteGPU = "TRUE"
-  mks.enableVulkanPresentation = "TRUE"
-  mks.enableX11Presentation = "TRUE"
-  mks.maxRefreshRate = "120"
-  mks.vsync = "FALSE"
-  mks.useD3D = "TRUE"
-  svga.maxFullscreenRefreshTick = "120"
-  svga.maxChangeTick = "120"
-  svga.maxLocalChangeTick = "120"
-  svga.maxNoChangeTick = "120"
-  svga.showUpdateRate = "TRUE"
-  svga.debug.showFPS = "TRUE"
+  - sched.cpu.affinity = "0-15"
+  - mks.forceDiscreteGPU = "TRUE"
+  - mks.enableVulkanPresentation = "TRUE"
+  - mks.enableX11Presentation = "TRUE"
+  - mks.maxRefreshRate = "120"
+  - mks.vsync = "FALSE"
+  - mks.useD3D = "TRUE"
+  - svga.maxFullscreenRefreshTick = "120"
+  - svga.maxChangeTick = "120"
+  - svga.maxLocalChangeTick = "120"
+  - svga.maxNoChangeTick = "120"
+  - svga.showUpdateRate = "TRUE"
+  - svga.debug.showFPS = "TRUE"

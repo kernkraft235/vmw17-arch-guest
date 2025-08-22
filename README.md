@@ -1,3 +1,9 @@
+> [!NOTE] 
+> I made this a long time ago, when I knew much less.<br/>I also no longer use Windows or keep up with VMware.<br/>
+> Therefore, I am archiving this.
+
+
+
 # vmw17-arch-guest
 Tips and Tweaks for creating a high performance Arch linux VM using VMware Workstation 17 on Windows 11 
  - config.ini file located in "C:\ProgramData\VMware\VMware Workstation" by default
